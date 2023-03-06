@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Todo app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <h1>TODO</h1>
+      <div class="create-todo">
+        <!-- <form action=""> -->
+        <input
+          type="text"
+          class="add-task"
+          id="add"
+          placeholder="Create a new todo..."
+        />
+        <!-- </form> -->
+      </div>
+      <div class="todo-div">
+        <ul id="list">
+          <!-- <li>
+            <input type="checkbox" id="task1" data-id="12" class="custom-checkbox">
+            <label for="task1">Buy groceries</label>
+            <img src="bin.svg" class="delete" data-id="12" />
+          </li> -->
+        </ul>
+        <div class="footer-list">
+          <div><span id="tasks-counter">0</span> items left</div>
+          <div class="footer-middle-div">
+            <span class="all pointer active-column">All</span>
+            <span class="active pointer">Active</span>
+            <span class="completed pointer">Completed</span>
+          </div>
+          <div>
+            <span class="clear-completed pointer">Clear Completed</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-div"></div>
+    </main>
+
+    <!-- Add dynamic number -->
+    <!-- items left All Active Completed Clear Completed Drag and drop to reorder
+    list -->
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+    <script src="script.js"></script>
+  </body>
+</html>
