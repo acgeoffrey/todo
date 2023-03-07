@@ -1,0 +1,62 @@
+/******************************/
+/* BELOW 1344px (Smaller desktops) */
+/******************************/
+
+@media (max-width: 84em) {
+  main {
+    width: 60%;
+  }
+}
+
+/******************************/
+/* BELOW 944px (Tablets) */
+/******************************/
+
+@media (max-width: 59em) {
+  main {
+    width: 70%;
+  }
+
+  .footer-middle-div {
+    gap: 1rem;
+  }
+}
+
+/******************************/
+/* BELOW 678px (Tablets) */
+/******************************/
+
+@media (max-width: 42em) {
+  main {
+    width: 80%;
+  }
+}
+
+/******************************/
+/* BELOW 558px (Tablets) */
+/******************************/
+
+@media (max-width: 35em) {
+  html {
+    font-size: 55%;
+  }
+
+  main {
+    width: 90%;
+  }
+}
+
+/******************************/
+/* BELOW 446px (Tablets) */
+/******************************/
+
+@media (max-width: 28em) {
+  .footer-list {
+    justify-content: space-between;
+    /* gap: 2rem; */
+  }
+
+  .footer-middle-div {
+    gap: 0.5rem;
+  }
+}

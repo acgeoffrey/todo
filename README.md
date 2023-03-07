@@ -1,6 +1,6 @@
 # Todo app
 
-This is a simple Todo app which I built from one of th [Frontend Mentor](https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW) challenges.
+This is a Todo app which I built from one of the [Frontend Mentor](https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW) challenges.
 
 ## Table of contents
 
@@ -20,7 +20,7 @@ This is a simple Todo app which I built from one of th [Frontend Mentor](https:/
 
 ### Links
 
-- Live Site URL: [Live Site URL here](https://acgeoffrey.github.io/todo/);
+- Live Site URL: [Live Site URL here](https://acgeoffrey.github.io/todo/)
 
 ## My process
 
