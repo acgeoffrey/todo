@@ -23,7 +23,7 @@
 }
 
 /******************************/
-/* BELOW 678px (Tablets) */
+/* BELOW 678px */
 /******************************/
 
 @media (max-width: 42em) {
@@ -33,7 +33,7 @@
 }
 
 /******************************/
-/* BELOW 558px (Tablets) */
+/* BELOW 558px (Mobile Phones) */
 /******************************/
 
 @media (max-width: 35em) {
@@ -47,16 +47,21 @@
 }
 
 /******************************/
-/* BELOW 446px (Tablets) */
+/* BELOW 446px  */
 /******************************/
 
 @media (max-width: 28em) {
   .footer-list {
-    justify-content: space-between;
-    /* gap: 2rem; */
+    position: relative;
+    height: 9rem;
+    align-items: flex-start;
   }
 
   .footer-middle-div {
-    gap: 0.5rem;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 2rem;
   }
 }
